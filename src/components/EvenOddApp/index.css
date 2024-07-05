@@ -1,0 +1,72 @@
+.bg-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-width: 1px;
+  padding: 30px;
+}
+.card-container {
+  width: 60vw;
+  height: 60vh;
+  background-image: linear-gradient(#ff6e7f, #bfe9ff);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+}
+@media screen and (min-width: 768px) {
+  .card-container {
+    width: 80vw;
+    height: 80vh;
+  }
+}
+
+.count-view {
+  font-size: 40px;
+  font-weight: 700;
+  font-family: 'Roboto';
+  margin-bottom: 14px;
+  color: #0f172a;
+}
+@media screen and (min-width: 768px) {
+  .count-view {
+    font-size: 70px;
+  }
+}
+.number-type {
+  font-size: 20px;
+  font-weight: 600;
+  font-family: 'Roboto';
+  color: #334155;
+}
+@media screen and (min-width: 768px) {
+  .number-type {
+    font-size: 30px;
+  }
+}
+.button {
+  border-width: 0px;
+  width: 120px;
+  border-radius: 4px;
+  font-family: 'Roboto';
+  font-size: 12px;
+  padding: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .button {
+    width: 150px;
+    border-radius: 6px;
+    font-family: 'Roboto';
+    font-size: 15px;
+    padding: 10px;
+  }
+}
+
+.description {
+  font-size: 12px;
+  font-weight: 600;
+  font-family: 'Roboto';
+  color: #334155;
+}
